@@ -55,7 +55,7 @@ const users = [{
 }];
 ```
 
-11) Écrivez une fonction `flat()` capable d'aplatir un tableau de n'importe quelle profondeur ? `flat([1, [2, [3, [4]], 5]]) => => [1, 2, 3, 4, 5]`
+11) Écrivez une fonction `flat()` capable d'aplatir un tableau de n'importe quelle profondeur ? `flat([1, [2, [3, [4]], 5]]) => [1, 2, 3, 4, 5]`
 
 
 ### React:
