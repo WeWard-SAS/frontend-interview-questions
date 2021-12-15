@@ -102,12 +102,12 @@ function greeter(greet) {
 10)
 
 ```javascript
-Array.prototype.average = function (){
+Array.prototype.average = function() {
     let total = 0;
 
-    for(let index in this) {
-      total += this[index];
-    }
+    this.forEach((entry) => {
+      total += entry;
+    })
     return total / this.length;
 }
 ```
