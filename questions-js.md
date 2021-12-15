@@ -14,7 +14,7 @@
 
 6) À quoi servent les mots-clés "`async` / `await`" ?
 
-7) Qu'est-ce que l'léritage et la chaîne de prototype en JavaScript ?
+7) Qu'est-ce que l'héritage et la chaîne de prototype en JavaScript ?
 
 8) Quelle est la différence entre ces quatre promesses?
 
