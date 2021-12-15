@@ -14,7 +14,9 @@
 
 6) À quoi servent les mots-clés "`async` / `await`" ?
 
-7) Quelle est la différence entre ces quatre promesses?
+7) Qu'est-ce que l'léritage et la chaîne de prototype en JavaScript ?
+
+8) Quelle est la différence entre ces quatre promesses?
 
 ```javascript
 doSomething().then(function () {
@@ -33,11 +35,11 @@ doSomething().then(doSomethingElse);
 
 ### Code
 
-8) Écrivez une fonction qui peut être appelée comme suit : `greet("Salut")("Louis")` et enregistrera "Salut, Louis !" sur la console ?
+9) Écrivez une fonction qui peut être appelée comme suit : `greet("Salut")("Louis")` et enregistrera "Salut, Louis !" sur la console ?
 
-9) Écrivez une fonction "average" qui peut calculer la moyenne des valeurs d'un Array et qui peut être appelée depuis l'objet Array. // `[1,2,3].average()` => `2`
+10) Écrivez une fonction "average" qui peut calculer la moyenne des valeurs d'un Array et qui peut être appelée depuis l'objet Array. // `[1,2,3].average()` => `2`
 
-10) Écrivez une fonction `groupByColor()` qui groupe cette collection d'utilisateurs par `color`.
+11) Écrivez une fonction `groupByColor()` qui groupe cette collection d'utilisateurs par `color`.
 
 ```javascript
 const users = [{
@@ -55,20 +57,20 @@ const users = [{
 }];
 ```
 
-11) Écrivez une fonction `flat()` capable d'aplatir un tableau de n'importe quelle profondeur ? `flat([1, [2, [3, [4]], 5]]) => [1, 2, 3, 4, 5]`
+12) Écrivez une fonction `flat()` capable d'aplatir un tableau de n'importe quelle profondeur ? `flat([1, [2, [3, [4]], 5]]) => [1, 2, 3, 4, 5]`
 
 
 ### React:
 
-12) Que fait le hook `useEffect` ?
+13) Que fait le hook `useEffect` ?
 
-13) Qu'est-ce que le dom virtuel et quel problème adresse-t'il ? 
+14) Qu'est-ce que le dom virtuel et quel problème adresse-t'il ? 
 
-14) Qu'est-ce que la règle des hooks ?
+15) Qu'est-ce que la règle des hooks ?
  
-15) Quelles différents types de state management as-tu déjà utilisé ?
+16) Quelles différents types de state management as-tu déjà utilisé ?
 
-16) UI challenge: [ici](https://codesandbox.io/s/js-ui-test-6557e)
+17) UI challenge: [ici](https://codesandbox.io/s/js-ui-test-6557e)
 
 
 # Réponses:
@@ -81,11 +83,12 @@ QUIZZ
 4) event loop: https://www.educative.io/edpresso/what-is-an-event-loop-in-javascript
 5) fonctions pures: https://www.nicoespeon.com/fr/2015/01/fonctions-pures-javascript/
 6) async/await: https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Statements/async_function
-7) diff: https://stackoverflow.com/questions/49592105/javascript-es6-promises
+7) https://developer.mozilla.org/fr/docs/Web/JavaScript/Inheritance_and_the_prototype_chain
+8) diff: https://stackoverflow.com/questions/49592105/javascript-es6-promises
 
 CODE
 
-8)
+9)
 
 ```javascript
 function greeter(greet) {
@@ -96,7 +99,7 @@ function greeter(greet) {
 ```
 
 
-9)
+10)
 
 ```javascript
 Array.prototype.average = function (){
@@ -109,7 +112,7 @@ Array.prototype.average = function (){
 }
 ```
 
-10) 
+11) 
 
 ```javascript
 function groupByColor(users) {
@@ -127,7 +130,7 @@ function groupByColor(users) {
 }
 ```
 
-11)
+12)
 
 ```javascript
 function flat(arr) {
