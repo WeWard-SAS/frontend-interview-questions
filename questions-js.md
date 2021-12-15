@@ -68,7 +68,7 @@ const users = [{
 
 15) Qu'est-ce que la règle des hooks ?
  
-16) Quelles différents types de state management as-tu déjà utilisé ?
+16) Quels différents types de state management as-tu déjà utilisé ?
 
 17) UI challenge: [ici](https://codesandbox.io/s/js-ui-test-6557e)
 
