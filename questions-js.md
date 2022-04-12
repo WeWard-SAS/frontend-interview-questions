@@ -42,19 +42,23 @@ doSomething().then(doSomethingElse);
 11) Écrivez une fonction `groupByColor()` qui groupe cette collection d'utilisateurs par `color`.
 
 ```javascript
-const users = [{
-  "name": "jim",
-  "color": "blue",
-  "age": "22"
-}, {
-  "name": "Sam",
-  "color": "blue",
-  "age": "33"
-}, {
-  "name": "eddie",
-  "color": "green",
-  "age": "77"
-}];
+const users = [
+  {
+    name: "jim",
+    color: "blue",
+    age: "22",
+  },
+  {
+    name: "Sam",
+    color: "blue",
+    age: "33",
+  },
+  {
+    name: "eddie",
+    color: "green",
+    age: "77",
+  },
+];
 ```
 
 12) Écrivez une fonction `flat()` capable d'aplatir un tableau de n'importe quelle profondeur ? `flat([1, [2, [3, [4]], 5]]) => [1, 2, 3, 4, 5]`
