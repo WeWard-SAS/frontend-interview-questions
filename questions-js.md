@@ -159,3 +159,7 @@ REACT:
 12) https://fr.reactjs.org/docs/hooks-effect.html
 13) https://fr.reactjs.org/docs/faq-internals.html
 14) https://fr.reactjs.org/docs/hooks-rules.html
+
+Exos:
+
+https://app.coderpad.io/FY4WDKH6
